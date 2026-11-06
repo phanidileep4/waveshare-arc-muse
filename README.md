@@ -1,4 +1,4 @@
-# Arc companion
+# Waveshare Arc Muse
 
 Arc is a Waveshare **ESP32-S3-Touch-AMOLED-1.75C** running the official Muse Gadget SDK. This repository records the November 5–6, 2026 migration from working Xiaozhi firmware to verified Muse live voice.
 
@@ -41,7 +41,9 @@ Both settings matter. Live voice without the external-memory setting left no suf
 | Installed app | 2,232,320 bytes; 47% of the 4 MiB slot free |
 | Secure Boot / flash encryption | Disabled; no eFuses were programmed |
 
-## Repository versus private archive
+## Public repository versus private archive
+
+This is a community project, not an official Waveshare or Muse release.
 
 Git contains documentation, source pins, the dependency lock, safe configuration overlays, scripts, checksums, and sanitized evidence. It deliberately excludes SDK/API tokens, Wi-Fi credentials, generated configurations, raw logs, token-bearing firmware binaries, and flash/NVS dumps. Those are retained locally in ignored `.local/` and the original workspace. See the [archive policy](docs/10-secrets-and-archive.md).
 
@@ -55,3 +57,7 @@ python3 -m unittest discover -s tests -v
 ```
 
 The assistant's original failed attempts and later corrections are recorded as findings, not presented as steps that all succeeded.
+
+## Public sharing
+
+The owner requested the name `waveshare-arc-muse` and public visibility on November 6, 2026. Documentation and Git history are public; ignored personal archives remain local. See [publication notes](docs/11-public-sharing.md). No open-source license has been selected for this repository's original material; upstream licenses still apply.

@@ -1,6 +1,6 @@
 # Secrets, local archive and publication
 
-The GitHub repository is private by default. That does **not** make it appropriate to commit credentials or personal flash dumps.
+The GitHub repository was initially private. The owner requested public visibility on November 6, 2026. Never commit credentials or personal flash dumps; `.local/` remains local and ignored regardless of repository visibility.
 
 ## Tracked
 
