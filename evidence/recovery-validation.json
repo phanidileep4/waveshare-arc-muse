@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "ESP32-S3-Touch-AMOLED-1.75C-FactoryOnly-260114.bin",
+      "bytes": 33488896,
+      "sha256": "46e65fb708f325f6830d6f14ecbba3d357dbdab6a939e13fdf2206e147c063d2"
+    },
+    {
+      "path": "arc-xiaozhi-full-32mb.bin",
+      "bytes": 33554432,
+      "sha256": "f1a05e9e2bab5048e9bbbb7f81349583c0359337bc295f2582e639205a5879c3"
+    },
+    {
+      "path": "arc-xiaozhi-original.bin",
+      "bytes": 16777216,
+      "sha256": "b573297f2ea897f76f16d907c00d26c47dbe75701d6f7dc03808872872d5823f"
+    }
+  ],
+  "factory_asset": {
+    "name": "ESP32-S3-Touch-AMOLED-1.75C-FactoryOnly-260114.bin",
+    "size": 33488896,
+    "digest": "sha256:46e65fb708f325f6830d6f14ecbba3d357dbdab6a939e13fdf2206e147c063d2",
+    "browser_download_url": "https://github.com/waveshareteam/ESP32-S3-Touch-AMOLED-1.75C/releases/download/v1.0.1/ESP32-S3-Touch-AMOLED-1.75C-FactoryOnly-260114.bin"
+  },
+  "factory_matches_official": true,
+  "full_backup_first_16MiB_matches_original": true,
+  "detected_device_flash": "32MB",
+  "detected_device_psram": "8MB",
+  "device_flash_written": false,
+  "full_backup_matches_device_flash": true,
+  "verification_method": "esptool verify_flash: 33554432 bytes at 0x0, digest matched",
+  "scope": "Validation performed before the initial migration; device_flash_written=false is historical, not current state."
+}

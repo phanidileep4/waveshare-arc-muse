@@ -1,0 +1,35 @@
+{
+  "board": "Waveshare ESP32-S3-Touch-AMOLED-1.75C",
+  "sdk_commit": "463bd2a05380fea4211b0099ad0f70933c108b20",
+  "esp_idf_commit": "76f5dedd9950a3012fee8fb7d5586df21fc67802",
+  "app_bytes": 2232320,
+  "sdk_token_embedded": true,
+  "files": [
+    {
+      "path": "bootloader/bootloader.bin",
+      "bytes": 22752,
+      "sha256": "b1ca0ba46571598799d456e4dd7659bec2706510c215a13332a8bcd66b1c2356"
+    },
+    {
+      "path": "partition_table/partition-table.bin",
+      "bytes": 3072,
+      "sha256": "ffa95286aed5ff575aebea506fda45007d7066bd5278c3f3a65a960b9d599bb6"
+    },
+    {
+      "path": "ota_data_initial.bin",
+      "bytes": 8192,
+      "sha256": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f"
+    },
+    {
+      "path": "muse-gadget.bin",
+      "bytes": 2232320,
+      "sha256": "930a9bcefb6056c5ecae0ebfe2c086bb79267c093d94a715574ee25a6455c9c2"
+    }
+  ],
+  "purpose": "Verification of the new repository build helper using existing pinned checkouts/toolchain",
+  "flashed": false,
+  "repository_safety_tests_passed": 7,
+  "repository_credential_pattern_scan": "PASS",
+  "documentation_local_link_check": "PASS",
+  "bootstrap_on_clean_machine_tested": false
+}

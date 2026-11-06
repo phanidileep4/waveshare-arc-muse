@@ -1,0 +1,45 @@
+{
+  "board": "Waveshare ESP32-S3-Touch-AMOLED-1.75C",
+  "target": "esp32s3",
+  "flash_mb": 32,
+  "psram_mb": 8,
+  "psram_mode": "octal",
+  "sdk_commit": "463bd2a05380fea4211b0099ad0f70933c108b20",
+  "esp_idf_tag": "v6.0.3",
+  "esp_idf_commit": "76f5dedd9950a3012fee8fb7d5586df21fc67802",
+  "sdk_token_embedded": true,
+  "wifi_credentials_embedded": false,
+  "secure_boot": false,
+  "flash_encryption": false,
+  "application_bytes": 2166784,
+  "app_slot_bytes": 4194304,
+  "app_slot_free_percent": 48,
+  "flashed": true,
+  "files": [
+    {
+      "path": "bootloader/bootloader.bin",
+      "bytes": 22752,
+      "sha256": "52ce8d3bee492a787b3a37456b4423dbf635499f089f2292a6f6d3d871ce3214"
+    },
+    {
+      "path": "partition_table/partition-table.bin",
+      "bytes": 3072,
+      "sha256": "ffa95286aed5ff575aebea506fda45007d7066bd5278c3f3a65a960b9d599bb6"
+    },
+    {
+      "path": "ota_data_initial.bin",
+      "bytes": 8192,
+      "sha256": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f"
+    },
+    {
+      "path": "muse-gadget.bin",
+      "bytes": 2166784,
+      "sha256": "5a4bb1b751ecc18d6e202bae3c6781c520572b4537410f40ed190f02dca51eaa"
+    },
+    {
+      "path": "flash_args",
+      "bytes": 179,
+      "sha256": "7d5cdb1c3ecf7a6f137a61b497279343d1e1cbd421d7a0bc75b80eb60e182214"
+    }
+  ]
+}

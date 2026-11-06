@@ -1,0 +1,15 @@
+{
+  "installed": "Muse live voice for Waveshare ESP32-S3-Touch-AMOLED-1.75C",
+  "result": "Spoken call verified by logs and user",
+  "live_voice_enabled": true,
+  "static_buffers_in_psram": true,
+  "pairing_preserved": true,
+  "wifi_preserved": true,
+  "api_status": 200,
+  "audio_frames_played": 583,
+  "audio_frames_dropped": 0,
+  "bad_audio_frames": 0,
+  "end_call_confirmed": true,
+  "user_heard_response": true,
+  "openai_work": "Deferred; no key supplied and no OpenAI API calls made"
+}

@@ -1,0 +1,19 @@
+{
+  "muse": {
+    "url": "https://github.com/facebookincubator/muse-gadget-sdk.git",
+    "commit": "463bd2a05380fea4211b0099ad0f70933c108b20"
+  },
+  "esp_idf": {
+    "url": "https://github.com/espressif/esp-idf.git",
+    "tag": "v6.0.3",
+    "commit": "76f5dedd9950a3012fee8fb7d5586df21fc67802"
+  },
+  "waveshare_reference": {
+    "url": "https://github.com/waveshareteam/ESP32-S3-Touch-AMOLED-1.75C.git",
+    "commit": "4bfdc80eedbf95031e384610796bed15e0240312"
+  },
+  "freeink_host_tests": {
+    "url": "https://github.com/Free-Ink/freeink-sdk.git",
+    "commit": "2c047df7792cedece1191503793f18f5d8f1c695"
+  }
+}

@@ -1,0 +1,4 @@
+# Load after the official Muse and Waveshare 1.75C overlays.
+# Credentials belong only in the ignored generated SDKCONFIG.
+CONFIG_MUSE_REALTIME_VOICE=y
+CONFIG_MUSE_STATIC_BUFFERS_IN_PSRAM=y

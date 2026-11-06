@@ -1,0 +1,56 @@
+{
+  "board": "Waveshare ESP32-S3-Touch-AMOLED-1.75C",
+  "esp_idf": "v6.0.3",
+  "sdk_commit": "463bd2a05380fea4211b0099ad0f70933c108b20",
+  "experimental_live_voice": true,
+  "flashed": true,
+  "app_slot_free_percent": 47,
+  "partition_table_identical_to_installed_build": true,
+  "host_live_voice_tests": 80,
+  "host_talk_button_tests": 42,
+  "test_result": "PASS",
+  "image_checksum_and_hash": "PASS",
+  "sdk_token_embedded": true,
+  "files": [
+    {
+      "path": "muse-gadget.bin",
+      "bytes": 2232320,
+      "sha256": "5fed577ed452666c5a7d657aae50882f400d06373952240003d791c6f82741a7"
+    },
+    {
+      "path": "bootloader/bootloader.bin",
+      "bytes": 22752,
+      "sha256": "b89d5dfd6951ce0190eb1f6520074a0bbf68feaa4eace3d20c47fe6df74bfcb8"
+    },
+    {
+      "path": "partition_table/partition-table.bin",
+      "bytes": 3072,
+      "sha256": "ffa95286aed5ff575aebea506fda45007d7066bd5278c3f3a65a960b9d599bb6"
+    },
+    {
+      "path": "ota_data_initial.bin",
+      "bytes": 8192,
+      "sha256": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f"
+    },
+    {
+      "path": "flash_args",
+      "bytes": 179,
+      "sha256": "7d5cdb1c3ecf7a6f137a61b497279343d1e1cbd421d7a0bc75b80eb60e182214"
+    }
+  ],
+  "static_buffers_in_psram": true,
+  "revision": "live-voice-memory-adjustment",
+  "boot_verified": true,
+  "wifi_preserved": true,
+  "pairing_preserved": true,
+  "muse_session_connected": true,
+  "internal_heap_at_ready_bytes": 33215,
+  "spoken_audio_verified": true,
+  "user_confirmed_audible_speech": true,
+  "live_call_http_status": 200,
+  "test_audio_frames_played": 583,
+  "test_audio_frames_dropped": 0,
+  "test_bad_audio_frames": 0,
+  "test_call_end_confirmed": true,
+  "openai_integration": "Deferred at user request"
+}
